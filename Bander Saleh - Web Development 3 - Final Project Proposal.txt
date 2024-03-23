@@ -1,0 +1,24 @@
+<Web Development 3 - Final Project Proposal>
+
+1. Project Title: 
+"Shopping Cart Cookbook App"
+
+2. Introduction: A brief description of the app, and its purpose.
+I want to create a basic shopping cart app where users can add/remove items to their shopping list, then I want to build an additional feature that tells the user what recipe their shopping list can cook using this Free Meal Prep API (https://www.themealdb.com/api.php)
+
+3. Features and Functionality:
+	-List and describe the core features of your app.
+	-Explain any unique functionality or interaction.
+>Signup/Login
+	-everyone can save their personal shopping list to their private account securely
+>Add/Remove shopping list items to a table with basic CRUD functionality.
+>Bonus Button that brings up a table of all the dishes that can be cooked with the current User's shopping list.
+	-If you click on a dish, a more detailed window containing all the cookbook intructions will get displayed.
+
+4. List the Models your API will serve (one MUST be a user, choose two more):
+	-Describe the journey a user will take through your app from start to finish.
+>Models: User, ShoppingList, RecipeBook
+>The journey a user will take through my Restful Web API application: Login/Signup Page --> ShoppingList CRUD functional --> Window gets updated with recipe names (click for full recipe) that the User's current ShoppingList can cook thanks to the utilization of the Free Recipe API.
+
+
+https://www.themealdb.com/api.php
